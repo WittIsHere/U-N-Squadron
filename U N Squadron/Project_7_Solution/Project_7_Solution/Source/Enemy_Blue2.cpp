@@ -6,28 +6,29 @@
 
 Enemy_Blue2::Enemy_Blue2(int x, int y) : Enemy(x, y)
 {
-	flyAnim.PushBack({ 206, 130, 31, 10 });
-	flyAnim.PushBack({ 206, 130, 31, 10 });
-	flyAnim.PushBack({ 206, 130, 31, 10 });
-	flyAnim.PushBack({ 173, 128, 31, 14 });
-	flyAnim.PushBack({ 173, 128, 31, 14 });
-	flyAnim.PushBack({ 173, 128, 31, 14 });
-	flyAnim.PushBack({ 173, 128, 31, 14 });
-	flyAnim.PushBack({ 173, 128, 31, 14 });
-	flyAnim.PushBack({ 173, 128, 31, 14 });
-	flyAnim.PushBack({ 173, 128, 31, 14 });
-	flyAnim.PushBack({ 173, 128, 31, 14 });
-	flyAnim.PushBack({ 173, 128, 31, 14 });
-	flyAnim.PushBack({ 173, 128, 31, 14 });
-	flyAnim.PushBack({ 206, 130, 31, 10 });
-	flyAnim.PushBack({ 206, 130, 31, 10 });
-	flyAnim.PushBack({ 206, 130, 31, 10 });
-	flyAnim.PushBack({ 206, 130, 31, 10 });
-	flyAnim.PushBack({ 206, 130, 31, 10 });
-	flyAnim.PushBack({ 206, 130, 31, 10 });
+	flyAnim.PushBack({ 307, 130, 31, 10 });
+	flyAnim.PushBack({ 307, 130, 31, 10 });
+	flyAnim.PushBack({ 307, 130, 31, 10 });
+	flyAnim.PushBack({ 307, 130, 31, 10 });
+	flyAnim.PushBack({ 307, 130, 31, 10 });
+	flyAnim.PushBack({ 307, 130, 31, 10 });
+	flyAnim.PushBack({ 307, 130, 31, 10 });
+	flyAnim.PushBack({ 340, 128, 31, 14 });
+	flyAnim.PushBack({ 340, 128, 31, 14 });
+	flyAnim.PushBack({ 340, 128, 31, 14 });
+	flyAnim.PushBack({ 340, 128, 31, 14 });
+	flyAnim.PushBack({ 307, 130, 31, 10 });
+	flyAnim.PushBack({ 307, 130, 31, 10 });
+	flyAnim.PushBack({ 307, 130, 31, 10 });
+	flyAnim.PushBack({ 307, 130, 31, 10 });
+	flyAnim.PushBack({ 307, 130, 31, 10 });
+	flyAnim.PushBack({ 307, 130, 31, 10 });
 
 
 	flyAnim.speed = 0.1;
+
+	score = 100;
+	money = 300;
 
 	currentAnim = &flyAnim;
 
@@ -36,11 +37,33 @@ Enemy_Blue2::Enemy_Blue2(int x, int y) : Enemy(x, y)
 
 void Enemy_Blue2::Update()
 {
-	waveRatio += waveRatioSpeed;
-	position.y = spawnPos.y - (6 * waveHeight * sinf((0.15) * waveRatio));
-	position.x -= 1;
+	frameCount++;
 
-	/*App->particles->AddParticle(App->particles->enemyBullet, position.x + 20, position.y + 5, Collider::Type::ENEMY_SHOT);*/
+	if (frameCount == 120)
+	{
+		App->particles->AddParticle(App->particles->enemyBullet, position.x + 20, position.y + 5, Collider::Type::ENEMY_SHOT);
+	}
+
+	if (facingLeft == 0 && position.x < 200)
+	{
+		position.x += 3;
+		LOG("Posicion x del enemigo %d", position.x);
+	}
+	else if (facingLeft == 0 && position.x < 250 && position.x >0)
+	{
+		position.x += 2;
+		position.y -= 2;
+	}
+	else if (facingLeft == 0 && position.x < 251 && position.x >0)
+	{
+		position.x += 3;
+		facingLeft = 1;
+	}
+	else
+	{
+		position.x += 2;
+
+	}
 
 
 	// Call to the base class. It must be called at the end

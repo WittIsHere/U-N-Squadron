@@ -5,6 +5,8 @@
 #include "ModuleParticles.h"
 #include "ModuleAudio.h"
 #include "ModuleRender.h"
+#include "ModulePlayer.h"
+#include "ModuleEnemies.h"
 
 Enemy::Enemy(int x, int y) : position(x, y)
 {
@@ -39,6 +41,16 @@ void Enemy::Draw()
 
 void Enemy::OnCollision(Collider* collider)
 {
-	App->particles->AddParticle(App->particles->explosion, position.x, position.y);
-	App->audio->PlayFx(destroyedFx);
+	if (life > 0)
+	{
+		life--;
+	}
+	else
+	{
+		App->player->score;
+		App->player->money;
+
+		App->particles->AddParticle(App->particles->explosion, position.x, position.y);
+		App->audio->PlayFx(destroyedFx);
+	}
 }

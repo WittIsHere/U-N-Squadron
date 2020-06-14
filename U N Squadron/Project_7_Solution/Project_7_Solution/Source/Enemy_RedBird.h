@@ -31,8 +31,13 @@ private:
 
 	bool facingLeft = 0;
 
+	int frameCount = 0;
+
+
 	// The enemy animation
 	Animation flyAnim;
+
+
 };
 
 #endif // __ENEMY_REDBIRD_H__

@@ -14,6 +14,7 @@
     <ProjectGuid>{F00B105C-B164-4FA2-AC11-FBC1A13D6F47}</ProjectGuid>
     <RootNamespace>Project_6_Solution</RootNamespace>
     <ProjectName>Project_7_Solution</ProjectName>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -78,14 +79,30 @@
     <ClInclude Include="Application.h" />
     <ClInclude Include="Collider.h" />
     <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Enemy_4.h" />
     <ClInclude Include="Enemy_Blue.h" />
     <ClInclude Include="Enemy_Blue2.h" />
+    <ClInclude Include="Enemy_Bosslvl1.h" />
+    <ClInclude Include="Enemy_Bosslvl2.h" />
     <ClInclude Include="Enemy_BrownShip.h" />
     <ClInclude Include="Enemy_BrownShip2.h" />
+    <ClInclude Include="Enemy_Helicopter1.h" />
+    <ClInclude Include="Enemy_Helicopter2.h" />
+    <ClInclude Include="Enemy_Helicopter3.h" />
+    <ClInclude Include="Enemy_Helicopter4.h" />
+    <ClInclude Include="Enemy_Helicopter4Red.h" />
     <ClInclude Include="Enemy_Mech.h" />
+    <ClInclude Include="Enemy_MiniBoss.h" />
+    <ClInclude Include="Enemy_Miniboss2.h" />
     <ClInclude Include="Enemy_RedBird.h" />
     <ClInclude Include="Enemy_RedBird2.h" />
+    <ClInclude Include="Enemy_Tank.h" />
+    <ClInclude Include="Enemy_Together.h" />
+    <ClInclude Include="Enemy_Together2.h" />
+    <ClInclude Include="Enemy_TurretGreen.h" />
+    <ClInclude Include="Enemy_TurretRed.h" />
     <ClInclude Include="GameOver.h" />
+    <ClInclude Include="levelOne.h" />
     <ClInclude Include="MissionComplete.h" />
     <ClInclude Include="ModuleAudio.h" />
     <ClInclude Include="ModuleCollisions.h" />
@@ -106,21 +123,39 @@
     <ClInclude Include="Particle.h" />
     <ClInclude Include="Path.h" />
     <ClInclude Include="SceneIntro.h" />
+    <ClInclude Include="selectMap.h" />
+    <ClInclude Include="shop.h" />
     <ClInclude Include="Welcome.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Application.cpp" />
     <ClCompile Include="Collider.cpp" />
     <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="Enemy_4.cpp" />
     <ClCompile Include="Enemy_Blue.cpp" />
     <ClCompile Include="Enemy_Blue2.cpp" />
+    <ClCompile Include="Enemy_Bosslvl1.cpp" />
+    <ClCompile Include="Enemy_Bosslvl2.cpp" />
     <ClCompile Include="Enemy_BrownShip.cpp" />
     <ClCompile Include="Enemy_BrownShip2.cpp" />
+    <ClCompile Include="Enemy_Helicopter1.cpp" />
+    <ClCompile Include="Enemy_Helicopter2.cpp" />
+    <ClCompile Include="Enemy_Helicopter3.cpp" />
+    <ClCompile Include="Enemy_Helicopter4.cpp" />
+    <ClCompile Include="Enemy_Helicopter4Red.cpp" />
     <ClCompile Include="Enemy_Mech.cpp" />
+    <ClCompile Include="Enemy_MiniBoss.cpp" />
+    <ClCompile Include="Enemy_Miniboss2.cpp" />
     <ClCompile Include="Enemy_RedBird.cpp" />
     <ClCompile Include="Enemy_RedBird2.cpp" />
+    <ClCompile Include="Enemy_Tank.cpp" />
+    <ClCompile Include="Enemy_Together.cpp" />
+    <ClCompile Include="Enemy_Together2.cpp" />
+    <ClCompile Include="Enemy_TurretGreen.cpp" />
+    <ClCompile Include="Enemy_TurretRed.cpp" />
     <ClCompile Include="GameOver.cpp" />
     <ClCompile Include="Globals.cpp" />
+    <ClCompile Include="levelOne.cpp" />
     <ClCompile Include="MissionComplete.cpp" />
     <ClCompile Include="ModuleAudio.cpp" />
     <ClCompile Include="ModuleCollisions.cpp" />
@@ -139,6 +174,8 @@
     <ClCompile Include="Particle.cpp" />
     <ClCompile Include="Path.cpp" />
     <ClCompile Include="SceneIntro.cpp" />
+    <ClCompile Include="selectMap.cpp" />
+    <ClCompile Include="shop.cpp" />
     <ClCompile Include="Welcome.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -18,6 +18,9 @@
 #include "ModuleCollisions.h"
 #include "ModuleFadeToBlack.h"
 #include "ModuleRender.h"
+#include "selectMap.h"
+#include "levelOne.h"
+#include "shop.h"
 
 Application::Application()
 {
@@ -32,18 +35,21 @@ Application::Application()
 
 	modules[4] = sceneIntro = new SceneIntro(false);
 	modules[5] = welcome = new Welcome(true);
-	modules[6] = missionComplete = new MissionComplete(false);
-	modules[7] = gameOver = new GameOver(false);
+	modules[6] = selectMap = new MapSelect(false);
+	modules[7] = store = new Shop(false);
+	modules[8] = missionComplete = new MissionComplete(false);
+	modules[9] = gameOver = new GameOver(false);
 	
-	modules[8] = scene = new ModuleScene(false);
-	modules[9] = particles = new ModuleParticles(true);
-	modules[10] = enemies = new ModuleEnemies(false);	//Enemies start disabled
-	modules[11] = player = new ModulePlayer(false);	//Player starts disabled
+	modules[10] = scene = new ModuleScene(false);
+	modules[11] = levelOne = new LevelOne(false);
+	modules[12] = particles = new ModuleParticles(true);
+	modules[13] = enemies = new ModuleEnemies(false);	//Enemies start disabled
+	modules[14] = player = new ModulePlayer(false);	//Player starts disabled
 
-	modules[12] = collisions = new ModuleCollisions(true);
-	modules[13] = fade = new ModuleFadeToBlack(true);
-	modules[14] = fonts = new ModuleFonts(true);
-	modules[15] = render = new ModuleRender(true);
+	modules[15] = collisions = new ModuleCollisions(true);
+	modules[16] = fade = new ModuleFadeToBlack(true);
+	modules[17] = fonts = new ModuleFonts(true);
+	modules[18] = render = new ModuleRender(true);
 }
 
 Application::~Application()
@@ -94,6 +100,7 @@ bool Application::CleanUp()
 
 	for (int i = NUM_MODULES - 1; i >= 0 && ret; --i)
 		ret = modules[i]->IsEnabled() ? modules[i]->CleanUp() : true;
+	
 
 	return ret;
 }

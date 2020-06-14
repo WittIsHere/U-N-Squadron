@@ -9,7 +9,7 @@
 #include "ModuleInput.h"
 #include "ModuleFadeToBlack.h"
 #include "SDL/include/SDL_scancode.h"
-
+#include "ModuleCollisions.h"
 Welcome::Welcome(bool startEnabled) : Module(startEnabled)
 {
 
@@ -39,7 +39,8 @@ bool Welcome::Start()
 
 update_status Welcome::Update()
 {
-	if (App->input->keys[SDL_SCANCODE_SPACE] == KEY_STATE::KEY_DOWN)
+	GamePad& pad = App->input->pads[0];
+	if ((App->input->keys[SDL_SCANCODE_SPACE] == KEY_STATE::KEY_DOWN) || (pad.a == true))
 	{
 		App->fade->FadeToBlack(this, (Module*)App->sceneIntro, 90);
 	}

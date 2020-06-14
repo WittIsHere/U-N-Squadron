@@ -3,7 +3,7 @@
 
 #include "Module.h"
 
-#define MAX_ENEMIES 100
+#define MAX_ENEMIES 300
 
 // TODO 2: Add a new enemy: Brown Cookies!
 
@@ -21,6 +21,23 @@ enum class ENEMY_TYPE
 	BLUE,
 	BLUE2,
 	MECH,
+	TOGETHER,
+	TOGETHER2,
+	MINIBOSS,
+	MINIBOSS2,
+	FOUR,
+	BOSS2,
+	BOSS1,
+	HELICOPTER1,
+	HELICOPTER2,
+	HELICOPTER3,
+	HELICOPTER4,
+	HELICOPTER4RED,
+	HELICOPTER5,
+	TURRETGREEN,
+	TURRETRED,
+	TURRETBIG,
+	TANK,
 };
 
 struct EnemySpawnpoint
@@ -57,12 +74,14 @@ public:
 	// Destroys all active enemies left in the array
 	bool CleanUp() override;
 
+	bool isDead = false;
+
 	// Called when an enemi collider hits another collider
 	// The enemy is destroyed and an explosion particle is fired
 	void OnCollision(Collider* c1, Collider* c2) override;
 
 	// Add an enemy into the queue to be spawned later
-	bool AddEnemy(ENEMY_TYPE type, int x, int y);
+	bool AddEnemy(ENEMY_TYPE type, int x, int y, int path);
 
 	// Iterates the queue and checks for camera position
 	void HandleEnemiesSpawn();

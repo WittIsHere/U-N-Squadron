@@ -7,7 +7,7 @@
 #include "Particle.h"
 #include "Collider.h"
 
-#define MAX_ACTIVE_PARTICLES 100
+#define MAX_ACTIVE_PARTICLES 300
 
 struct SDL_Texture;
 struct Collider;
@@ -46,7 +46,7 @@ public:
 	// Param particle	- A template particle from which the new particle will be created
 	// Param x, y		- Position x,y in the screen (upper left axis)
 	// Param delay		- Delay time from the moment the function is called until the particle is displayed in screen
-	void AddParticle(const Particle& particle, int x, int y, Collider::Type colliderType = Collider::Type::NONE, uint delay = 0);
+	Particle* AddParticle(const Particle& particle, int x, int y, Collider::Type colliderType = Collider::Type::NONE, uint delay = 0);
 
 private:
 	// Particles spritesheet loaded into an SDL Texture
@@ -62,6 +62,35 @@ public:
 	//Template particle for a laser
 	Particle laser;
 	Particle enemyBullet;
+	Particle miniBoss;
+	Particle bossCapsule;
+	Particle bossCapsule2;
+	Particle bossCapsuleUp;
+	Particle bossCapsuleUpr;
+	Particle bossCapsuleUpl;
+	Particle bossCapsuleR;
+	Particle bossCapsuleL;
+	Particle bossCapsuleDnr;
+	Particle bossCapsuleDnl;
+	Particle bossCapsuleDn;
+	Particle bossShoot;
+	Particle bossBomb;
+	Particle boss1Missile;
+	Particle boss1Missile2;
+	Particle boss1Missile3;
+	Particle boss1Missile4;
+	Particle boss1MissileS;
+	Particle boss1MissileS2;
+	Particle turretUp;
+	Particle turretUpl;
+	Particle pBomb;
+	Particle blueLaser1;
+	Particle Megacrush;
+	Particle Cluster;
+
+
+
+
 };
 
 #endif // !__MODULEPARTICLES_H__

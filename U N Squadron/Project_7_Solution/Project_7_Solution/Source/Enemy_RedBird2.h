@@ -30,6 +30,9 @@ private:
 	int i = 0;
 
 	bool facingLeft = 0;
+	bool facingUp = 0;
+
+	int frameCount = 0;
 
 	// The enemy animation
 	Animation flyAnim;

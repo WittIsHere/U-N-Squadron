@@ -38,13 +38,60 @@ public:
 ;
 
 	// Parallax textures
+
 	SDL_Texture* parallaxA = nullptr;
-
+	
 	SDL_Texture* parallaxB = nullptr;
-
+	
 	SDL_Texture* parallaxC = nullptr;
-
+	
 	SDL_Texture* parallaxD = nullptr;
+
+	SDL_Rect parallaxA1;
+	SDL_Rect parallaxB1;
+	SDL_Rect parallaxC1;
+
+	SDL_Rect parallaxA2;
+	SDL_Rect parallaxB2;
+	SDL_Rect parallaxC2;
+
+
+	void ParallaxingA();
+	void ParallaxingA2();
+
+	void ParallaxingB();
+	void ParallaxingB2();
+
+	void ParallaxingC();
+	void ParallaxingC2();
+
+	int pAPosition = -2;
+	int pA2Position = 256;
+
+	int pBPosition = -2;
+	int pB2Position = 256;
+
+	int pCPosition = -2;
+	int pC2Position = 256;
+
+	int frameCount = 0;
+
+	int pAMovement = 4;
+	int pBMovement = 2;
+	int pCMovement = 1;
+
+	SDL_Texture* POW = nullptr;
+	SDL_Rect pow;
+	Animation _pow;
+
+	void POWanim();
+	float powApos;
+	float powBpos;
+
+	bool powAtaken;
+	bool powBtaken;
+
+
 
 
 	bool CleanUp();

@@ -12,7 +12,7 @@
 
 MissionComplete::MissionComplete(bool startEnabled) : Module(startEnabled)
 {
-
+	win = { 0 ,0, 256,224 };
 }
 
 MissionComplete::~MissionComplete()
@@ -27,7 +27,7 @@ bool MissionComplete::Start()
 
 	bool ret = true;
 
-	bgTexture = App->textures->Load("Assets/Screens/win.png");
+	bgTexture = App->textures->Load("Assets/Screens/WinScreen.png");
 	App->audio->PlayMusic("Assets/Music/win.ogg", 1.0f);
 
 	App->render->camera.x = 0;
@@ -38,9 +38,11 @@ bool MissionComplete::Start()
 
 update_status MissionComplete::Update()
 {
-	if (App->input->keys[SDL_SCANCODE_SPACE] == KEY_STATE::KEY_DOWN)
+	GamePad& pad = App->input->pads[0];
+
+	if ((App->input->keys[SDL_SCANCODE_SPACE] == KEY_STATE::KEY_DOWN) || (pad.a == true))
 	{
-		App->fade->FadeToBlack(this, (Module*)App->welcome, 90);
+		App->fade->FadeToBlack(this, (Module*)App->sceneIntro, 90);
 	}
 
 	return update_status::UPDATE_CONTINUE;
@@ -50,7 +52,7 @@ update_status MissionComplete::Update()
 update_status MissionComplete::PostUpdate()
 {
 	// Draw everything --------------------------------------
-	App->render->Blit(bgTexture, 0, 0, NULL);
+	App->render->Blit(bgTexture, 0, 0, &win,0);
 
 	return update_status::UPDATE_CONTINUE;
 }

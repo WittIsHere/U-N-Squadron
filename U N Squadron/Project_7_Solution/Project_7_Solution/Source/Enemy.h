@@ -40,6 +40,10 @@ public:
 
 	// Sound fx when destroyed
 	int destroyedFx = 0;
+	int life;
+
+	int score = 0;
+	int money = 0;
 
 protected:
 	// A ptr to the current animation

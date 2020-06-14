@@ -29,7 +29,38 @@ public:
 
 public:
 	// The scene sprite sheet loaded into an SDL_Texture
-	SDL_Texture* bgTexture = nullptr;
+	
+	
+	SDL_Texture* mTitle = nullptr;
+	SDL_Texture* mTm = nullptr;
+	SDL_Texture* mOptions = nullptr;
+	SDL_Texture* mSelect = nullptr;
+	SDL_Texture* mCredits = nullptr;
+
+	SDL_Texture* Horse = nullptr;
+
+	SDL_Rect Title;
+	SDL_Rect Tm;
+	SDL_Rect Options;
+	SDL_Rect Select;
+	SDL_Rect Credits;
+
+	Animation Horses;
+
+
+
+
+	int selecting = 0;
+	int TmY = 109;
+	int timer = 0;
+
+
+	int a = 0;
+	int b = 0;
+	int c = 0;
+	int d = 0;
+
+
 };
 
 #endif
