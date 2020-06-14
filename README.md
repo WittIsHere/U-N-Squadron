@@ -1,5 +1,5 @@
 # PROJECT I: U.N. SQUADRON 
- 
+
 ## Welcome to the webpage of U.N. Squadron, an Horizontal scrolling Shoot 'em Up.
 U.N.Squadron is a side-scrolling shooting game that was launched in 1986 by Capcom for the Super Nintendo Entertainment System. The game was released in Japan as Area 88 based on a manga series related.
 
@@ -10,11 +10,13 @@ Before entering a level, the player can purchase special weapons or added defens
 # U.N. SQUADRON: TRAILER
 
 
+***
 |TEAM MEMBERS|GitHub Names|
 | ---------- |---------|
 |Galarza Roca, Aram | [_WittIsHere_](https://github.com/WittIsHere) |
-|Reinoso Rivas, Sergi| [_Serxi_](https://github.com/Serxi) |
+|Reinoso Rivas, Sergi| [_Serxi_](https://github.com/Serxi) | 
 |Ortega Sánchez, Juan| [_MrPollito_](https://github.com/MrPollito) |
+***
 
 
 Website:
