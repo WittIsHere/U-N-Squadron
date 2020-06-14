@@ -5,10 +5,11 @@ U.N.Squadron is a side-scrolling shooting game that was launched in 1986 by Capc
 
 The game is a typical side-scrolling game but while its predecessors are vertical-scrolling shooters this one is horizontal. The goal of the game is to stop a terrorist group known as Project 4. An other difference with previous games is that the player has an energy bar that is consumed every time the player sustains damage. 
 
-Before entering a level, the player can purchase special weapons or added defenses in the shop. The player earns money to buy weapons by destroying enemy planes and vehicles during levels and, when the level is finished, any unused weapons are converted back into money. Moreover, the player can choose between three mercenary pilots with different capabilities each.
+Before entering a level, the player can purchase special weapons or added defenses in the shop. The player earns money to buy weapons by destroying enemy planes and vehicles during levels.
 
 ![](https://raw.githubusercontent.com/JanAdell/Project-1/master/Wiki%20Contents/Art/area-88-ova.jpg)
 
+--------------------------------------------------------------------
 
 ## U.N. SQUADRON: TRAILER
 
@@ -17,13 +18,13 @@ Before entering a level, the player can purchase special weapons or added defens
 
 # [Download the Game!](https://www.youtube.com/watch?v=Zo4boRG1yuQ)
 
-
+--------------------------------------------------------------------
 
 # How to play?
 
-## KEYBOARD CONTROLS
+## Keyboards Controls
 
-#### Basic Controls
+### Basic Controls
 
 |Input|Action|
 |----------|---------|
@@ -33,8 +34,7 @@ Before entering a level, the player can purchase special weapons or added defens
 |R|Fire special weapon|
 
 
-
-#### Debug Funcionality
+### Debug Funcionality
 
 |Command|Action|
 |----------|---------|
@@ -45,9 +45,7 @@ Before entering a level, the player can purchase special weapons or added defens
 |5|Special ammo +99|
 |6|(at shop) infinite money|
 
-
-
-
+--------------------------------------------------------------------
 
 # THE TEAM
 
