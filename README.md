@@ -64,7 +64,7 @@ Before entering a level, the player can purchase special weapons or added defens
 
 **Aram Galarza:** General screens (welcome, selectLevel,Shop,Level 1,Level 2, missionSucces,GameOver) Music, Parallax effects, special weapons, fonts, UI,  fully implemented shop and selectLevel. Debug funcionality.
 
-**Juan Ortega:**
+**Juan Ortega:** Implementation of all  enemies: paths, spawnpoints... Miniboss and Bosses of levels 1 and 2.
 
 ![](https://raw.githubusercontent.com/JanAdell/Project-1/master/Wiki%20Contents/Art/Area-88-SFC-JP.jpg)
 
