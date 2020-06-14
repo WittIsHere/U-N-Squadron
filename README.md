@@ -1,10 +1,16 @@
-# U.N. Squadron
-## PROJECT I
+ # PROJECT I: U.N. SQUADRON
  
-![](https://github.com/Serxi/U.N._Squadron/blob/master/Images/Group%20Logo.png)
+ Welcome to the webpage of U.N. Squadron: Horizontal Scrolling Airplane Shooter
+
+
+|TEAM MEMBERS| GitHub Names|
+| ---------- |---------|
+|Galarza Roca, Aram | [_WittIsHere_](https://github.com/WittIsHere) |
+|Reinoso Rivas, Sergi| [_Serxi_](https://github.com/Serxi) |
+|Ortega Sánchez, Juan| [_MrPollito_](https://github.com/MrPollito) |
+
 
 Website:
-- Website using a template in github.com
 
 - Short description of the game, names and a team photo
 
