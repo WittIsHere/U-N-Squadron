@@ -9,19 +9,14 @@ Before entering a level, the player can purchase special weapons or added defens
 
 ![](https://raw.githubusercontent.com/JanAdell/Project-1/master/Wiki%20Contents/Art/area-88-ova.jpg)
 
+
 ## U.N. SQUADRON: TRAILER
 
 https://www.youtube.com/watch?v=Zo4boRG1yuQ 
 
-***
 
-|TEAM MEMBERS|Role|GitHub Names|
-| ---------- |---------|---------|
-|Galarza Roca, Aram |Code|[_WittIsHere_](https://github.com/WittIsHere) |
-|Reinoso Rivas, Sergi|Assets|[_Serxi_](https://github.com/Serxi) | 
-|Ortega Sánchez, Juan|Code|[_MrPollito_](https://github.com/MrPollito) |
 
-***
+# How to play?
 
 ## KEYBOARD CONTROLS
 
@@ -32,6 +27,7 @@ https://www.youtube.com/watch?v=Zo4boRG1yuQ
 |Space| Enter / Shooting) |
 |E| Next special weapon |
 |R| Fire special weapon |
+
 
 
 #### Debug Funcionality
@@ -45,7 +41,24 @@ https://www.youtube.com/watch?v=Zo4boRG1yuQ
 |6| (at shop) infinite money |
 
 
-***
+
+THE TEAM
+
+|TEAM MEMBERS|Role|GitHub Names|
+| ---------- |---------|---------|
+|Galarza Roca, Aram |Code|[_WittIsHere_](https://github.com/WittIsHere) |
+|Reinoso Rivas, Sergi|Assets|[_Serxi_](https://github.com/Serxi) | 
+|Ortega Sánchez, Juan|Code|[_MrPollito_](https://github.com/MrPollito) |
+
+####Contributions
+
+
+
+
+
+
+![](https://raw.githubusercontent.com/JanAdell/Project-1/master/Wiki%20Contents/Art/Area-88-SFC-JP.jpg)
+
 
 Website:
 
