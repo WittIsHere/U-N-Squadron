@@ -44,7 +44,7 @@ https://github.com/WittIsHere/U-N-Squadron
 
 
 
-THE TEAM
+# THE TEAM
 
 |TEAM MEMBERS|Role|GitHub Names|
 | ---------- |---------|---------|
@@ -53,12 +53,11 @@ THE TEAM
 |Ortega Sánchez, Juan|Code|[_MrPollito_](https://github.com/MrPollito) |
 
 #### Contributions
+**Sergi Rivas**: All sprites search and coordinates, as well as the music and some sprite drawing/change. Enemy paths, characteristics and description for level. Little help on solving and coming up with programing ideas. Github page making.
 
-Sergi Rivas: All sprites search and coordinates, as well as the music and some sprite drawing/change. Enemy paths, characteristics and description for level. Little help on solving and coming up with programing ideas. Github page making.
+**Aram Galarza:**
 
-Aram Galarza:
-
-Juan Ortega: 
+**Juan Ortega:**
 
 
 ![](https://raw.githubusercontent.com/JanAdell/Project-1/master/Wiki%20Contents/Art/Area-88-SFC-JP.jpg)
