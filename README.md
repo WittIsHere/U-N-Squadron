@@ -19,7 +19,8 @@ https://www.youtube.com/watch?v=Zo4boRG1yuQ
 |Galarza Roca, Aram |Code|[_WittIsHere_](https://github.com/WittIsHere) |
 |Reinoso Rivas, Sergi|Assets|[_Serxi_](https://github.com/Serxi) | 
 |Ortega Sánchez, Juan|Code|[_MrPollito_](https://github.com/MrPollito) |
-***
+
+
 ## KEYBOARD CONTROLS
 
 Website:
