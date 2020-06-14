@@ -10,14 +10,13 @@ Before entering a level, the player can purchase special weapons or added defens
 ## U.N. SQUADRON: TRAILER
 
 
-***
 
+***
 |TEAM MEMBERS|GitHub Names|
 | ---------- |---------|
 |Galarza Roca, Aram | [_WittIsHere_](https://github.com/WittIsHere) |
 |Reinoso Rivas, Sergi| [_Serxi_](https://github.com/Serxi) | 
 |Ortega Sánchez, Juan| [_MrPollito_](https://github.com/MrPollito) |
-
 ***
 ## KEYBOARD CONTROLS
 
