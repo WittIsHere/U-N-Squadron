@@ -25,7 +25,6 @@ https://www.youtube.com/watch?v=Zo4boRG1yuQ
 #### Basic Controls
 |Input|Action|
 |---------- |---------|
-
 |W / A / S / D |Movement|
 |Space|Enter / Shooting)|
 |E|Next special weapon|
@@ -36,8 +35,6 @@ https://www.youtube.com/watch?v=Zo4boRG1yuQ
 #### Debug Funcionality
 |Command|Action|
 |----------|---------|
-
-
 |1|Enable God Mode|
 |2|Show collisions hitbox|
 |3|go to missionComplete|
