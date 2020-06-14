@@ -13,7 +13,7 @@ Before entering a level, the player can purchase special weapons or added defens
 
 ## U.N. SQUADRON: TRAILER
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vQGKAIaUlpk">
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=7Y3gjAoJ1_k">
  </iframe>
 
 # [Download the Game!](https://github.com/WittIsHere/U-N-Squadron.git)
