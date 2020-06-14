@@ -25,7 +25,7 @@ Before entering a level, the player can purchase special weapons or added defens
 ## Keyboards Controls
 
 ### Basic Controls
-
+----------------------------------------------------------------------------------------------------------------------------------------
 |Input|Action|
 |----------|---------|
 |W / A / S / D |Movement|
@@ -35,7 +35,7 @@ Before entering a level, the player can purchase special weapons or added defens
 
 
 ### Debug Funcionality
-
+----------------------------------------------------------------------------------------------------------------------------------------
 |Command|Action|
 |----------|---------|
 |1|Enable God Mode|
@@ -48,7 +48,7 @@ Before entering a level, the player can purchase special weapons or added defens
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 # THE TEAM
-
+----------------------------------------------------------------------------------------------------------------------------------------
 |TEAM MEMBERS|Role|GitHub Names|
 |----------|---------|---------|
 |Galarza Roca, Aram |Code|[_WittIsHere_](https://github.com/WittIsHere)|
