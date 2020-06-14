@@ -1,15 +1,13 @@
-# PROJECT I: U.N. SQUADRON
+# PROJECT I: U.N. SQUADRON 
  
 ## Welcome to the webpage of U.N. Squadron, an Horizontal scrolling Shoot 'em Up.
-
-
 U.N.Squadron is a side-scrolling shooting game that was launched in 1986 by Capcom for the Super Nintendo Entertainment System. The game was released in Japan as Area 88 based on a manga series related.
 
-The game is a typical side-scrolling game but while its predecessors are vertical-scrolling shooters this one is horizontal. The goal of the game is to stop a terrorist group known as Project 4. An other difference with previous games is that the player has an energy bar that is consumed every time the player sustains damage. This was uncommon yet other arcade-style shooters used a system of reserved lives, where every time an enemy hitted the player a live was lost.
+The game is a typical side-scrolling game but while its predecessors are vertical-scrolling shooters this one is horizontal. The goal of the game is to stop a terrorist group known as Project 4. An other difference with previous games is that the player has an energy bar that is consumed every time the player sustains damage. 
 
 Before entering a level, the player can purchase special weapons or added defenses in the shop. The player earns money to buy weapons by destroying enemy planes and vehicles during levels and, when the level is finished, any unused weapons are converted back into money. Moreover, the player can choose between three mercenary pilots with different capabilities each.
 
-
+# U.N. SQUADRON: TRAILER
 
 
 |TEAM MEMBERS|GitHub Names|
