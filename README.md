@@ -14,7 +14,7 @@ Before entering a level, the player can purchase special weapons or added defens
 
 https://www.youtube.com/watch?v=Zo4boRG1yuQ 
 
-[ Download the Game! :)](https://www.youtube.com/watch?v=Zo4boRG1yuQ)
+# [ Download the Game! :)](https://www.youtube.com/watch?v=Zo4boRG1yuQ)
 
 
 
@@ -45,12 +45,12 @@ https://www.youtube.com/watch?v=Zo4boRG1yuQ
 
 
 # THE TEAM
-
 |TEAM MEMBERS|Role|GitHub Names|
 |----------|---------|---------|
 |Galarza Roca, Aram |Code|[_WittIsHere_](https://github.com/WittIsHere)|
 |Reinoso Rivas, Sergi|Assets|[_Serxi_](https://github.com/Serxi)| 
 |Ortega Sánchez, Juan|Code|[_MrPollito_](https://github.com/MrPollito)|
+
 
 ### Contributions
 **Sergi Rivas**: All sprites search and coordinates, as well as the music and some sprite drawing/change. Enemy paths, characteristics and description for level. Little help on solving and coming up with programing ideas. Github page making.
