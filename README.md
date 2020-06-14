@@ -59,7 +59,7 @@ Before entering a level, the player can purchase special weapons or added defens
 ### Contributions
 **Sergi Rivas**: All sprites search and coordinates, as well as the music and some sprite drawing/change. Enemy paths, characteristics and description for level. Little help on solving and coming up with programing ideas. Github page making.
 
-**Aram Galarza:**
+**Aram Galarza:** Task List Aram: General screens (welcome, selectLevel,Shop,Level 1,Level 2, missionSucces,GameOver) Music, Parallax effects, special weapons, fonts, UI,  fully implemented shop and selectLevel. Debug funcionality.
 
 **Juan Ortega:**
 
