@@ -7,6 +7,8 @@ The game is a typical side-scrolling game but while its predecessors are vertica
 
 Before entering a level, the player can purchase special weapons or added defenses in the shop. The player earns money to buy weapons by destroying enemy planes and vehicles during levels and, when the level is finished, any unused weapons are converted back into money. Moreover, the player can choose between three mercenary pilots with different capabilities each.
 
+![](https://raw.githubusercontent.com/JanAdell/Project-1/master/Wiki%20Contents/Art/area-88-ova.jpg)
+
 ## U.N. SQUADRON: TRAILER
 
 https://www.youtube.com/watch?v=Zo4boRG1yuQ 
