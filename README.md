@@ -1,6 +1,6 @@
  # PROJECT I: U.N. SQUADRON
  
- Welcome to the webpage of U.N. Squadron: Horizontal Scrolling Airplane Shooter
+ Welcome to the webpage of U.N. Squadron: Shoot 'em Up
 
 
 |TEAM MEMBERS| GitHub Names|
