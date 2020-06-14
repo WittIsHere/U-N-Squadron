@@ -9,7 +9,7 @@ Before entering a level, the player can purchase special weapons or added defens
 
 ![](https://raw.githubusercontent.com/JanAdell/Project-1/master/Wiki%20Contents/Art/area-88-ova.jpg)
 
---------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
 
 ## U.N. SQUADRON: TRAILER
 
@@ -18,7 +18,7 @@ Before entering a level, the player can purchase special weapons or added defens
 
 # [Download the Game!](https://www.youtube.com/watch?v=Zo4boRG1yuQ)
 
---------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
 
 # How to play?
 
@@ -45,7 +45,7 @@ Before entering a level, the player can purchase special weapons or added defens
 |5|Special ammo +99|
 |6|(at shop) infinite money|
 
---------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
 
 # THE TEAM
 
