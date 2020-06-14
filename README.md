@@ -14,14 +14,38 @@ Before entering a level, the player can purchase special weapons or added defens
 https://www.youtube.com/watch?v=Zo4boRG1yuQ 
 
 ***
+
 |TEAM MEMBERS|Role|GitHub Names|
 | ---------- |---------|---------|
 |Galarza Roca, Aram |Code|[_WittIsHere_](https://github.com/WittIsHere) |
 |Reinoso Rivas, Sergi|Assets|[_Serxi_](https://github.com/Serxi) | 
 |Ortega Sánchez, Juan|Code|[_MrPollito_](https://github.com/MrPollito) |
 
+***
 
 ## KEYBOARD CONTROLS
+
+#### Basic Controls
+|Input|Action|
+| ---------- |---------|
+|W / A / S / D | Movement|
+|Space| Enter / Shooting) |
+|E| Next special weapon |
+|R| Fire special weapon |
+
+
+#### Debug Funcionality
+|Command|Action|
+| ---------- |---------|
+|1| Enable God Mode |
+|2| Show collisions hitbox |
+|3| go to missionComplete |
+|4| go to Game Over |
+|5| Special ammo +99 |
+|6| (at shop) infinite money |
+
+
+***
 
 Website:
 
