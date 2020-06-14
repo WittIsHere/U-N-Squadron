@@ -23,6 +23,7 @@ https://www.youtube.com/watch?v=Zo4boRG1yuQ
 ## KEYBOARD CONTROLS
 
 #### Basic Controls
+
 |Input|Action|
 
 |W / A / S / D |Movement|
@@ -46,6 +47,7 @@ https://www.youtube.com/watch?v=Zo4boRG1yuQ
 
 
 # THE TEAM
+
 |TEAM MEMBERS|Role|GitHub Names|
 |----------|---------|---------|
 |Galarza Roca, Aram |Code|[_WittIsHere_](https://github.com/WittIsHere)|
