@@ -47,6 +47,8 @@ Before entering a level, the player can purchase special weapons or added defens
 
 
 
+
+
 # THE TEAM
 
 |TEAM MEMBERS|Role|GitHub Names|
@@ -54,6 +56,7 @@ Before entering a level, the player can purchase special weapons or added defens
 |Galarza Roca, Aram |Code|[_WittIsHere_](https://github.com/WittIsHere)|
 |Reinoso Rivas, Sergi|Assets|[_Serxi_](https://github.com/Serxi)| 
 |Ortega Sánchez, Juan|Code|[_MrPollito_](https://github.com/MrPollito)|
+
 
 
 ### Contributions
