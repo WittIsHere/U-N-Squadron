@@ -16,7 +16,7 @@ Before entering a level, the player can purchase special weapons or added defens
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vQGKAIaUlpk">
  </iframe>
 
-# [Download the Game!](https://www.youtube.com/watch?v=Zo4boRG1yuQ)
+# [Download the Game!](https://github.com/WittIsHere/U-N-Squadron.git)
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
