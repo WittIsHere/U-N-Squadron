@@ -26,7 +26,7 @@ Before entering a level, the player can purchase special weapons or added defens
 #### Basic Controls
 
 |Input|Action|
-
+|----------|---------|
 |W / A / S / D |Movement|
 |Space|Enter / Shooting)|
 |E|Next special weapon|
@@ -37,7 +37,7 @@ Before entering a level, the player can purchase special weapons or added defens
 #### Debug Funcionality
 
 |Command|Action|
-
+|----------|---------|
 |1|Enable God Mode|
 |2|Show collisions hitbox|
 |3|go to missionComplete|
