@@ -24,23 +24,23 @@ https://github.com/WittIsHere/U-N-Squadron
 
 #### Basic Controls
 |Input|Action|
-| ---------- |---------|
-|W / A / S / D | Movement|
-|Space| Enter / Shooting) |
-|E| Next special weapon |
-|R| Fire special weapon |
+|---------- |---------|
+|W / A / S / D |Movement|
+|Space|Enter / Shooting)|
+|E|Next special weapon|
+|R|Fire special weapon|
 
 
 
 #### Debug Funcionality
 |Command|Action|
-| ---------- |---------|
-|1| Enable God Mode |
-|2| Show collisions hitbox |
-|3| go to missionComplete |
-|4| go to Game Over |
-|5| Special ammo +99 |
-|6| (at shop) infinite money |
+|----------|---------|
+|1|Enable God Mode|
+|2|Show collisions hitbox|
+|3|go to missionComplete|
+|4|go to Game Over|
+|5|Special ammo +99|
+|6|(at shop) infinite money|
 
 
 
@@ -52,13 +52,12 @@ https://github.com/WittIsHere/U-N-Squadron
 |Reinoso Rivas, Sergi|Assets|[_Serxi_](https://github.com/Serxi) | 
 |Ortega Sánchez, Juan|Code|[_MrPollito_](https://github.com/MrPollito) |
 
-#### Contributions
+### Contributions
 **Sergi Rivas**: All sprites search and coordinates, as well as the music and some sprite drawing/change. Enemy paths, characteristics and description for level. Little help on solving and coming up with programing ideas. Github page making.
 
 **Aram Galarza:**
 
 **Juan Ortega:**
-
 
 ![](https://raw.githubusercontent.com/JanAdell/Project-1/master/Wiki%20Contents/Art/Area-88-SFC-JP.jpg)
 
