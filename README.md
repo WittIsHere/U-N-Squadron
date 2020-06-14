@@ -1,5 +1,7 @@
-# U-N-Squadron
- Project 1
+# U.N. Squadron
+ ##Project I
+ 
+![](https://raw.githubusercontent.com/JanAdell/Project-1/master/Wiki%20Contents/Art/Area-88-SFC-JP.jpg)
 
 Website:
 - Website using a template in github.com
